@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #db1515;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.profile-section {
+    background-image: url(https://storage.googleapis.com/profile-app4328/dark-background-abstract.png);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-section h2 {
+    margin: 10px 0 5px 0;
+    font-size: 24px;
+}
+
+.profile-section p {
+    margin: 0;
+    font-size: 16px;
+    color: #a0a0a0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 100px;
+    background-color: white;
+}
+
+.content .story,
+.content .personal-info {
+    width: 45%;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.personal-info table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.personal-info td {
+    padding: 8px;
+}
+
+.personal-info td {
+    border-bottom: 2px solid #5e5e5e
+}
+
+.personal-info .label {
+    font-weight: bold;
+    width: 30%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.footer i {
+    font-size: 40px;
+    margin: 0 15px;
+    color: #333;
+}
+
+.footer i:hover {
+    color: #6a8dff;
+}
+
+.certificate-section {
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.certificate-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.certificate {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.certificate img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

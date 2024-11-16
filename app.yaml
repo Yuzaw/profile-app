@@ -1,0 +1,11 @@
+runtime: nodejs
+env: standard
+
+entrypoint: node server.js
+
+handlers:
+  - url: /static
+    static_dir: web
+  - url: /
+    static_file: web/index.html
+    upload: web/index.html
