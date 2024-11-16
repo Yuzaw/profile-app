@@ -1,0 +1,19 @@
+runtime: nodejs22
+env: standard
+
+# Entry point to your server.js file
+entrypoint: node server.js
+
+# Handle static files
+handlers:
+  - url: /static
+    static_dir: static  # Folder where your static files are located (if applicable)
+
+  # Serve index.html and other static files from the 'web' folder
+  - url: /
+    static_files: web/index.html
+    upload: web/index.html
+
+  - url: /styles.css
+    static_files: web/styles.css
+    upload: web/styles.css
